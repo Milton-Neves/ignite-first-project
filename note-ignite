@@ -1,0 +1,69 @@
+PASSO A PASSO para criar um projeto com React
+(https://pt-br.reactjs.org/)
+
+
+------------- Criando local do projeto -------------
+
+
+Criar uma pasta: mkdir <nome da pasta>
+
+Obs.: Caso queira subpastas, basta entrar na pasta criada acima e rodar o mesmo
+código (mkdir ...)
+
+No terminal, dentro da pasta, digitar o comando: "code ." (para abrir o projeto no VSCode)
+
+
+------------- Inicializando o repositório -------------
+
+
+Dentro do VSCode, abrir o terminal e iniciar o arquivo PACKAGE.JSON.
+
+Tem duas maneiras de baixar o Package.json, são elas:
+
+"yarn init -y" ou "npm init -y"
+
+PACKAGE.JSON são as informações do projeto, tais como:
+
+Nome,
+Versão,
+Main (arquivo principal, por exemplo: index.js),
+Licensa,
+Dependencias (bibliotecas).
+
+É criado, também, o arquivo yarn.lock e a pasta NODE MODULES.
+
+
+------------- Pasta Node Modules -------------
+
+
+Essa pasta fica presente em todos os projetos .json, assim como o package.json.
+
+Ela armazena os códigos das dependencias que é instalada na aplicação, por exemplo: React (que por sua vez, também tem outras dependencias)
+
+
+------------- React DOM -------------
+
+
+É a arvore de elementos de uma aplicação, ou seja, o html convertido em sitaxe de objeto (JavaScript).
+
+Ele permite que o React se comunique com a arvore de elementos do html (criar novos elementos em tela, deletar elementos em tela...)
+
+
+------------- Criando estrutura de pastas -------------
+
+
+Criar a pasta SRC, onde fica todo o código criado na aplicação, principalmente o código JavaScript.
+
+Criar a pasta PUBLIC, onde ficam os arquivos (ou assets) públicos: index.html, icones (favicon), qualquer arquivo que precisa ser acessado diretamente do meio externo.
+
+
+------------- modelo modelo -------------
+
+
+
+
+
+
+
+
+
